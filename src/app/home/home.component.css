@@ -1,0 +1,57 @@
+header {
+    background-image: url('../../assets/images/background.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #2E86C1;
+    min-height: 500px;    
+}
+
+header .header-content {
+    position: relative;
+    text-align: center;
+    font-size: 3rem;    
+    padding-top: 200px;
+    margin: 0% 10%;
+}
+
+.line-box {
+    background-color: #2E86C1;
+    padding: 3rem 1rem 1rem 1rem;
+    color: #fff;
+    text-align: center;
+    min-height: 50px;  
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.general {
+    width: 100%;
+    display: inline-block;
+}
+
+.container {
+    width: 50%;
+    float: left;
+}
+
+.imageDiv {
+    width: 50%;
+    float: left;
+}
+
+@media(max-width: 768px) {
+    .imageDiv {
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+    }
+}

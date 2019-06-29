@@ -1,0 +1,47 @@
+[
+    {
+        "story": 1,
+        "name": "La leyenda de Nachito",
+        "type": "Leyenda"
+    },
+    {
+        "story": 2,
+        "name": "La leyenda de los enamorados",
+        "type": "Leyenda"
+    },
+    {
+        "story": 3,
+        "name": "La leyenda del estudiante",
+        "type": "Leyenda"
+    },
+    {
+        "story": 4,
+        "name": "La leyenda del vampiro de Guadalajara",
+        "type": "Leyenda"
+    },
+    {
+        "story": 5,
+        "name": "La leyenda del joven doctor",
+        "type": "Leyenda"
+    },
+    {
+        "story": 6,
+        "name": "La leyenda de las gavetas de la suerte",
+        "type": "Leyenda"
+    },
+    {
+        "story": 7,
+        "name": "La leyenda del catrín",
+        "type": "Leyenda"
+    },
+    {
+        "story": 8,
+        "name": "La leyenda del pirata",
+        "type": "Leyenda"
+    },
+    {
+        "story": 9,
+        "name": "La leyenda de Victoriana Hurtado",
+        "type": "Leyenda"
+    }
+]

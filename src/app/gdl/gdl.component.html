@@ -1,0 +1,30 @@
+<div class="container">
+    <div>
+        <h1>
+            ¡Ven a Guadalajara!
+        </h1>
+    </div>
+
+    <div>
+        <p>
+            La ciudad de Guadalajara es la capital del estado de Jalisco, también llamada “La perla tapatía” es mayormente conocida por el tequila y la música mariachi. 
+            Fue fundada en 1542, específicamente el día 14 de febrero, se caracteriza por su clima templado, cabe destacar que es una de las principales ciudades de México. 
+            Debido al auge tecnológico que ha tenido en los últimos años también es conocida como el Silicon Valley mexicano.
+        </p>
+
+        <div>
+            <p>Es una ciudad con mucha riqueza cultural y tradiciones, entre sus principales atractivos turísticos se encuentran:</p>
+            <div *ngFor="let item of items">
+                <p><strong>{{item.title}}</strong>
+                    {{item.content}}</p>
+            </div>
+           
+        </div>
+    </div>
+    <br>
+    <div>
+        <h2>
+            ¡Guadalajara te espera!
+        </h2>
+    </div>
+</div>

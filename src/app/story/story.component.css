@@ -1,0 +1,13 @@
+.container {
+    margin: 5% 20%;
+}
+
+.text {
+    text-align: justify;
+}
+
+@media(max-width: 768px) {
+    .container {
+        margin: 5% 10%;
+    }
+}

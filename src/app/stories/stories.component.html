@@ -1,0 +1,12 @@
+<div>
+    <mat-list>
+        <h3 class="header" mat-header>Museo Panteón de Belén</h3>
+        <h2 mat-subheader>Revive el corazón de la ciudad</h2>  
+        <mat-list-item class="item" *ngFor="let list of storiesList" (click)="goStory(list.story)">
+        <mat-icon mat-list-icon>note</mat-icon>
+        <h4 mat-line>{{list.name}}</h4>
+        <p mat-line>{{list.type}}</p>
+        </mat-list-item>
+        <mat-divider></mat-divider>
+    </mat-list>
+</div>

@@ -1,0 +1,16 @@
+<div class="container" *ngIf="text!=null">
+<div>
+    <h1>{{nameStory}}</h1>
+</div><br>
+<div>
+    <div class="text" *ngFor="let line of textArray">
+    <div *ngIf="isLink(line)"><a href="{{line}}" target="_blank">{{line}}</a></div>
+    <div *ngIf="!isLink(line)">{{line}}</div><br>
+    </div>  
+</div>
+</div>
+
+
+<div *ngIf="text===null">
+    Leyenda no encontrada.
+</div>
